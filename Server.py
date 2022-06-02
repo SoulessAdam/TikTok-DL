@@ -58,7 +58,7 @@ class MyServer(BaseHTTPRequestHandler):
         self.wfile.write(json.dumps(response).encode('utf-8'))
         return
 
-if __name__ == "__main__":        
+def main():   
     webServer = HTTPServer((hostName, serverPort), MyServer)
     print("Server started http://%s:%s" % (hostName, serverPort))
 
@@ -69,3 +69,7 @@ if __name__ == "__main__":
 
     webServer.server_close()
     print("Server stopped.")
+
+
+if __name__ == "__main__":
+    main()
