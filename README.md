@@ -31,10 +31,10 @@ Download any TikTok video without watermark - even if the save option is unavail
 * Update the `apiEndpoint` in the iOS Script.
 
 ##### <b>How to setup server (Python):</b>
-###### *NOTE THIS IS FOR LOCAL NETWORKS ONLY*
-* Download `Server.py`
-* Run `Server.py` with `python ./path/to/Server.py`
-* Copy the displayed IP on startup
+###### *NOTE THIS IS FOR LOCAL NETWORKS ONLY*.
+* Download `Server.py`.
+* Run `Server.py` with `python ./path/to/Server.py`.
+* Copy the displayed IP on startup.
 * Update your `apiEndpoint` variable in the iOS Script.
 <hr>
 
