@@ -1,1 +1,1 @@
-web: gunicorn 'Server:main()' --threads 1
+web: gunicorn 'Server:main()' 
