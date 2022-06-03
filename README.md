@@ -21,3 +21,17 @@ TikTok Video Downloader API.
 * Click on your script setup before.
 * Wait for website to load.
 * Click Download.
+<hr>
+
+##### <b>How to setup server (Heroku):</b>
+* Literally just deploy this repository to Heroku.
+* Wait for build to complete.
+* Grab your URL for your deployed heroku app.
+* Update the `apiEndpoint` in the iOS Script.
+
+##### <b>How to setup server (Python):</b>
+###### *NOTE THIS IS FOR LOCAL NETWORKS ONLY*
+* Download `Server.py`
+* Run `Server.py` with `python ./path/to/Server.py`
+* Copy the displayed IP on startup
+* Update your `apiEndpoint` variable in the iOS Script.
