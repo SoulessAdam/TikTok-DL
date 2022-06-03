@@ -1,0 +1,1 @@
+web: gunicorn 'Server:main()' -t 0
