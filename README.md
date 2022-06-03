@@ -1,5 +1,6 @@
 # TikTok-DL
 TikTok Video Downloader API. 
+Download any tiktok video without watermark - even if the save option is unavailable.
 <hr>
 
 ##### <b>How to setup (iOS):</b>
@@ -35,3 +36,6 @@ TikTok Video Downloader API.
 * Run `Server.py` with `python ./path/to/Server.py`
 * Copy the displayed IP on startup
 * Update your `apiEndpoint` variable in the iOS Script.
+<hr>
+
+###### Contact me at: discord.gg/wVWkybYevV 
