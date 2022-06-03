@@ -10,7 +10,7 @@ TikTok Video Downloader API.
 * Rename your script to anything you want - such as `Download`.
 * Tap `Share Sheet Inputs`.
 * Click `URLs`.
-* Your script is now ready to use! *Guide below*
+* Your script is now ready to use! *Guide below.*
 
 ##### <b>How to use (iOS):</b>
 * Ensure you setup the script w/ above tutorial.
@@ -19,5 +19,5 @@ TikTok Video Downloader API.
 * Goto the `Other` option and tap.
 * Tap Run Script.
 * Click on your script setup before.
-* Wait for website to load
-* Click Download
+* Wait for website to load.
+* Click Download.
