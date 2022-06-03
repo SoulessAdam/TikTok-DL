@@ -16,7 +16,7 @@ TikTok Video Downloader API.
 * Ensure you setup the script w/ above tutorial.
 * Goto any TikTok video.
 * Tap share.
-* Goto the `Other` option and tap.
+* Scroll the `Other` option and tap it.
 * Tap Run Script.
 * Click on your script setup before.
 * Wait for website to load.
