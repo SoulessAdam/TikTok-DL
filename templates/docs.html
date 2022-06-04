@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>API Docs</title>
+</head>
+<body style="font-family:verdana; background-color:#1C1C1C; color:#AAAAAA">
+<h1 style="color: #3C3F41;">TikTok Downloader API</h1>
+<hr>
+<h2 style="color: #2e6c80;"><span style="color: #555555;">Endpoints:</span></h2>
+<p>The only current endpoint supported is <span style="background-color: #2B2B2B; color: #fff; display: inline-block; padding: 3px 10px; font-weight: bold; border-radius: 5px;">/api</span><br />All requests API requests should be made there.</p>
+<h2 style="color: #2e6c80;"><span style="color: #555555;">Sending Requests:</span></h2>
+<p>Requests should be made with the POST method to the <span style="background-color: #2B2B2B; color: #fff; display: inline-block; padding: 3px 10px; font-weight: bold; border-radius: 5px;">/api</span> endpoint.<br />All requests should include a JSON body with the following data:<br /><br /><span style="background-color: #2B2B2B; color: #fff; display: inline-block; padding: 3px 10px; font-weight: bold; border-radius: 5px;">{<br />&nbsp; &nbsp; "url" : TikTokUrlHere<br />}</span></p>
+<h2 style="color: #2e6c80;"><span style="color: #555555;">Server Response:</span></h2>
+<p>The server response will be formatted as such:</p>
+<p><span style="background-color: #2B2B2B; color: #fff; display: inline-block; padding: 3px 10px; font-weight: bold; border-radius: 5px;">{<br />&nbsp; &nbsp;&nbsp;"code" : ResponseCode<br />&nbsp; &nbsp;&nbsp;"url" : DownloadUrl<sup>*</sup><br />&nbsp; &nbsp;&nbsp;<span style="color: #666699;">"error" : SourceOfError<br />&nbsp; &nbsp;&nbsp;"message" : ServerMessage</span><br />}</span></p>
+<p>Fields in <span style="color: #666699;"><strong>purple</strong></span> are returned upon response with code which is not equal to 200 (OK).</p>
+<p>Fields marked by an asterisk are only returned upon response with code of 200 (OK).</p>
+</body>
+</html>
