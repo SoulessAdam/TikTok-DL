@@ -30,8 +30,8 @@ def returnDL():
     else:
         response = dict()
         response["code"] = 500
-        response["error"] = "API requests should be made to /api endpoint"
-        response["message"] = "API Endpoint tutorial at t774.herokuapp.com/api"
+        response["error"] = "API requests should be made to /api endpoint."
+        response["message"] = "API Endpoint tutorial at t774.herokuapp.com/api."
         return response
 
 
@@ -76,6 +76,6 @@ def incorrectPath(u_path):
     elif request.method == "POST":
         response = dict()
         response["error"] = "Incorrect path."
-        response["message"] = "Please use the /api endpoint"
+        response["message"] = "Please use the /api endpoint."
         response["code"] = 500
         return response
