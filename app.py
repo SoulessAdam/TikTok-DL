@@ -16,10 +16,11 @@ def grabDownloadUrl(url): # Grab download link from lovetik api
         "Referer": 'https://lovetik.com/',
     })
 
-    response = req.json()["links"][0]["a"]
+    response = req.json()
     if "links" not in response:
         print(response)
         return None
+    return response["links"][0]["a"]
 
 
 @app.route('/', methods=['POST'])
