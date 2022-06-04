@@ -1,5 +1,5 @@
 // Scriptable iOS Script to grab url from share sheet and automatically redirect to download url.
-var apiEndpoint = "https://t774.herokuapp.com/"
+var apiEndpoint = "https://t774.herokuapp.com/api"
 var apiResponse = new Request(apiEndpoint)
 apiResponse.method = "POST";
 apiResponse.headers = {
