@@ -52,7 +52,7 @@ def apiPage():
             responseCode = downloadData[1]
             if download_url is None:
                 response["message"] = "Problem with grabbing download link. Please check TikTok Link or try again."
-                response["error"] = downloadData[3]
+                response["error"] = downloadData[2]
             else:
                 response["url"] = download_url
         response["code"] = responseCode if responseCode is not None else 500
