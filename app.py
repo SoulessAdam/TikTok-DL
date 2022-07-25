@@ -42,6 +42,7 @@ def apiPage():
     else:
         post_data = request.get_json()
         response = dict()
+        responseCode = None
         if "url" not in post_data:
             response["error"] = "No URL Detected."
         else:
@@ -54,7 +55,7 @@ def apiPage():
                 response["error"] = downloadData[3]
             else:
                 response["url"] = download_url
-        response["code"] = responseCode
+        response["code"] = responseCode if responseCode is not None else 500
         return response
 
 
