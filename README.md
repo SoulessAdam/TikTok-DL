@@ -1,7 +1,7 @@
 # TikTok-DL
 TikTok Video Downloader API and iOS Script. <br>
 Download any TikTok video without watermark - even if the save option is unavailable. <br>
-See API Docs <a href=t774.herokuapp.com/api/docs>here.</a>
+See API Docs <a href=https://t774.herokuapp.com/api/docs>here.</a>
 <hr>
 
 ##### <b>How to setup (iOS):</b>
