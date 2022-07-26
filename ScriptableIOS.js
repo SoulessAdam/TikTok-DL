@@ -10,11 +10,11 @@ apiResponse.body = JSON.stringify({
     "url": args.urls[0]
 });
 var jsonR = await apiResponse.loadJSON();
-var url = jsonR["url"]
-if(url != undefined) Safari.open(url)
-else{
+if("error" in jsonR){
     noti = new Notification()
     noti.title = "Error"
     noti.body += jsonR["error"]
     noti.schedule()
 }
+var url = jsonR["url"]
+if(url != undefined) Safari.open(url)
